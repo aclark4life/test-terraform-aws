@@ -3,3 +3,6 @@ __pycache__
 lib/
 lib64
 pyvenv.cfg
+.terraform.lock.hcl
+.terraform/
+terraform.tfstate
