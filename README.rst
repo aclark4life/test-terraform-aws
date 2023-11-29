@@ -1,6 +1,9 @@
 test-terraform-aws
 ================================================================================
 
+Init
+----
+
 ::
 
     └> make init
@@ -21,6 +24,9 @@ test-terraform-aws
     If you ever set or change modules or backend configuration for Terraform,
     rerun this command to reinitialize your working directory. If you forget, other
     commands will detect it and remind you to do so if necessary.
+
+Plan
+----
 
 ::
 
@@ -90,6 +96,9 @@ test-terraform-aws
     ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
     Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if you run "terraform apply" now.
+
+Apply
+-----
 
 ::
 
@@ -169,6 +178,9 @@ test-terraform-aws
 
     Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 
+
+Destroy
+-------
 
 ::
 
