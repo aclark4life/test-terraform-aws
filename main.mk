@@ -9,3 +9,6 @@ apply:
 
 fmt:
 	terraform fmt
+
+destroy:
+	terraform destroy
