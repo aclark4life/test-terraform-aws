@@ -38,7 +38,7 @@ include base.mk
 # E.g.
 # 
 # Uncomment the next line to include additional makefiles
-include tf.mk
+include main.mk
 #
 # Uncomment the next line to customize the project name variable
 PROJECT_NAME := test-terraform-aws
