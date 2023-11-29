@@ -1,3 +1,5 @@
+// Via ChatGPT (thanks!)
+
 provider "aws" {
   region = "us-east-1"
 }
